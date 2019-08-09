@@ -3,6 +3,52 @@
            https://api.github.com/users/<your name>
 */
 
+
+axios.get("https://api.github.com/users/tetondan")
+.then(res => {
+  console.log(res.data)
+  cards.appendChild(createCard(res.data)); 
+})
+.catch(err => {
+  console.log(err);
+})
+
+axios.get("https://api.github.com/users/dustinmyers")
+.then(res => {
+  console.log(res.data)
+  cards.appendChild(createCard(res.data)); 
+})
+.catch(err => {
+  console.log(err);
+})
+
+axios.get("https://api.github.com/users/bigknell")
+.then(res => {
+  console.log(res.data)
+  cards.appendChild(createCard(res.data)); 
+})
+.catch(err => {
+  console.log(err);
+})
+
+axios.get("https://api.github.com/users/justsml")
+.then(res => {
+  console.log(res.data)
+  cards.appendChild(createCard(res.data)); 
+})
+.catch(err => {
+  console.log(err);
+})
+
+axios.get("https://api.github.com/users/luishrd")
+.then(res => {
+  console.log(res.data)
+  cards.appendChild(createCard(res.data)); 
+})
+.catch(err => {
+  console.log(err);
+})
+
 axios.get("https://api.github.com/users/JaxAtwood")
 .then(res => {
   console.log(res.data)
